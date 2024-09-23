@@ -17,7 +17,7 @@ const donationButton = id("donation");
 const historyButton = id("history");
 let donationHistory = [];
 
-// donation section
+// show donation section
 donationButton.addEventListener("click", function () {
   id("history-section").classList.add("hidden"); 
   id("thanks-modal").classList.add("hidden");
@@ -27,7 +27,7 @@ donationButton.addEventListener("click", function () {
   historyButton.classList.remove("bg-[#B4F461]", "text-white");
 });
 
-// Show history section
+// show history section
 historyButton.addEventListener("click", function () {
   id("history-section").classList.remove("hidden"); 
   document.querySelector("main").style.display = "none"; 
