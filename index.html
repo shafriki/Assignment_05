@@ -27,12 +27,12 @@
         <!-- navbar section sart -->
          <div class="bg-[#F9F7F3] py-6">
             <nav class="max-w-screen-xl mx-auto flex items-center justify-between px-3 lg:px-0">
-                <button class="btn bg-[#B4F461] lg:px-8 text-xs lg:text-xl font-semibold hidden lg:block">Blog</button>
+                <a href="blog.html"class="btn bg-[#B4F461] lg:px-8 text-xs lg:text-xl py-2 font-semibold">Blog</a>
                 
                 <!-- icon content -->
                  <div class="flex items-center gap-3">
                     <img src="./assets/logo.png" alt="logo">
-                    <p class="text-xs lg:text-xl font-semibold">Donate Bangladesh</p>
+                    <p class="text-xs lg:text-xl font-semibold hidden lg:block">Donate Bangladesh</p>
                  </div>
     
                  <!-- total money -->
@@ -112,12 +112,12 @@
 
         <!-- modal section start -->
         <div id="thanks-modal" class="fixed inset-0 hidden bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="bg-white py-6 px-10 rounded-lg shadow-lg flex flex-col items-center">
+            <div class="bg-white lg:py-10 lg:px-20 px-6 py-5 rounded-xl shadow-lg flex flex-col items-center">
             <h2 class="text-xl font-extrabold mb-4">Congrates!</h2>
             <img src="./assets/coin.png" alt="" class="mb-3">
             <p class="text-sm lg:text-base text-[#111111B3] mb-4">You Have Donate for Humankind</p>
-            <p class="text-xs lg:text-lg font-extrabold mb-2">Successfully</p>
-            <button id="close-modal" class="btn bg-[#B4F461] text-xs lg:text-sm font-semibold">Close Confirmation</button>
+            <p class="text-xs lg:text-lg font-extrabold mb-4">Successfully</p>
+            <button id="close-modal" class="btn bg-[#B4F461] text-xs lg:text-base font-semibold">Close Confirmation</button>
             </div>
         </div>
         <!-- modal section end -->
@@ -128,8 +128,8 @@
      <!-- footer section start -->
       <footer>
         <!-- history section start -->
-    <section id="history-section" class="max-w-screen-xl mx-auto px-3 lg:px-0 mb-8 hidden">
-        <div id="history-list" class="p-5 rounded-xl shadow-md">
+    <section id="history-section" class="max-w-screen-2xl mx-auto px-3 lg:px-0 mb-8 hidden">
+        <div id="history-list" class="p-5 rounded-xl">
             <h3 class="text-lg lg:text-2xl font-bold mb-4">Donation History</h3>
         </div>
     </section>
@@ -138,6 +138,7 @@
     <div class="bg-[#F9F7F3] py-10"></div>
     </footer>
     <!-- footer section end -->
+
      <!-- javascript link -->
       <script src="donate.js"></script>
 </body>
